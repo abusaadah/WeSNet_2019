@@ -1,4 +1,4 @@
-# WeSNet_2019
+# WeSNet2019
 
 # Complexity-Scalable Neural Network Based MIMO Detection With Learnable Weight Scaling
 
