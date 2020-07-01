@@ -1,22 +1,24 @@
 # WeSNet_2019
-# Complexity-Scalable Neural Network Based MIMODetection With Learnable Weight Scaling.
 
-# Introduction
-This repository contains the implementation of the weight-scaled deep neural network (WeSNet) for designing a learning-based low complexity Multiple-Inputs Multiple-Outputs (MIMO) receivers. We refer the reader to our paper for details:
+# Complexity-Scalable Neural Network Based MIMO Detection With Learnable Weight Scaling
+
+# Introduction:
+This repository contains the codes for implementing the weight-scaled neural network design for building a low complexity learning-based multiple-inputs multiple-outputs MIMO receivers. The details can be found in our paper: [https://arxiv.org/pdf/1909.06943]
 
 # Prerequisites
-To run the code in this code in this repository, you will need:
 
-1. Python 3.68 or higher version
-2. Tensorflow 1.15 or higher
+To run this code, you will need:
+1. Python 3.6 or above
+2. TensorFlow 1.15. You can however run the code in TensorFlow 2.xx by disabling the eager execution mode as follows:import tensorflow.compat.v1 as tf
+tf.disable_v2_behavior()
 
-# Datasets
-The datasets are contained in the file: "data_generation.py". Training and Test datasets are generated stochastically from normal distributions. For the transmitted symbols, BPSK and QPSK or QAM modulations are used (see details in the paper).
+# Datasets 
+The training and test datasets are generated stochastically from random normal distributions with different instantiations using either BPSK or QPSK modulation (see: data_generation.py). 
+
+# WeSNet Model
+The main model is contained in wesnet_model.py. Run wesent_model to compile the model. 
 
 # Training and Testing
-
-Run the wesnet_model.py to compile the WeSNet model. For training and inference, run the train_test.py.
-To obtain BER performance for different percentages of weight scaling, you change the value of weight coefficient
-to different values, from 0.1 - 1.0. If you are using Tensorflow 2.xx, turn off the eager execution before running the code.
+The train and test the model, run train_test.py  
 
 
