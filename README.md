@@ -11,7 +11,7 @@ To run the code in this code in this repository, you will need:
 2. Tensorflow 1.15 or higher
 
 # Datasets
-The datasets are contained in the file: "data_generation.py". Training and Test datasets are generated stochastically from normal distributions. For the transmitted symbols, BPSK and QPSK or QAM modulations are used as (see details in the paper).
+The datasets are contained in the file: "data_generation.py". Training and Test datasets are generated stochastically from normal distributions. For the transmitted symbols, BPSK and QPSK or QAM modulations are used (see details in the paper).
 
 # Training and Testing
 
