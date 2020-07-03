@@ -3,7 +3,7 @@
 # Complexity-Scalable Neural Network Based MIMO Detection With Learnable Weight Scaling
 
 # Introduction:
-This repository contains the codes for implementing the weight-scaled neural network design for building a low complexity learning-based multiple-inputs multiple-outputs MIMO receivers. The details can be found in our paper: [https://arxiv.org/pdf/1909.06943]
+This repository contains the codes for implementing the weight-scaled neural network design for building a low complexity learning-based multiple-inputs multiple-outputs MIMO receivers. The details can be found in our paper: [http://arxiv.org/abs/1909.06943]
 
 # Prerequisites
 
